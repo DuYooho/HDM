@@ -1,0 +1,95 @@
+exp:
+  # HDM_SUN-SEG
+  exp_name: HDM_SUN-SEG_v0
+  train: True
+  resume: None
+  seed: 23
+  logdir: None
+  scale_lr: True
+
+model:
+  base_learning_rate: 1.0e-06
+  target: models.diffusion.hdm.HDM
+  params:
+    is_train: False
+    num_sample_steps: 100
+    linear_start: 0.0015
+    linear_end: 0.0195
+    num_timesteps_cond: 1
+    log_every_t: 200
+    timesteps: 1000
+    first_stage_key: image
+    gt_key: hc
+    monitor: val/loss_simple_ema
+    image_size: 352
+    channels: 3
+
+    unet_config:
+      target: modules.diffusionmodules.openaimodel.UNetModel
+      params:
+        image_size: 352
+        in_channels: 3
+        out_channels: 3
+        model_channels: 256
+        attention_resolutions:
+          - 8
+          - 16
+          - 32
+        num_res_blocks: 2
+        channel_mult:
+          - 1
+          - 1
+          - 2
+          - 2
+          - 4
+          - 4
+        num_head_channels: 64
+        use_spatial_transformer: False
+
+    cond_stage_config: __is_unconditional__
+
+data:
+  target: pl_utils.DataModuleFromConfig
+  params:
+    batch_size: 2
+    num_workers: 0
+    wrap: false
+    train:
+      target: data.polyp_all.PolypBase
+      params:
+        name: SUN-SEG-New/TrainDataset
+        size: 352
+    validation:
+      target: data.polyp_all.PolypBase
+      params:
+        name: SUN-SEG-New/TestUnseenDataset
+        size: 352
+
+
+lightning:
+  callbacks:
+    image_logger:
+      target: pl_utils.ImageLogger
+      params:
+        batch_frequency: 1000
+        max_images: 8
+        increase_log_steps: False
+  logger:
+    tensorboard:
+      target: pytorch_lightning.loggers.TensorBoardLogger
+
+  trainer:
+    ### Info
+    # RTX A6000, batch_size=2, max_memory~32GB
+    # ~20 min/epoch
+    # 100 epoch~ 32 hours -> 2 GPU ~ 16 hours
+    # 1124 item/epoch
+    ###
+    benchmark: True
+    accumulate_grad_batches: 1
+    num_nodes: 1
+    max_epochs: 100
+    check_val_every_n_epoch: 1
+    accelerator: gpu
+    devices: 0,
+#    precision: 16
