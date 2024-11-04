@@ -43,7 +43,7 @@ pip install pytorch-lightning==1.9.3 omegaconf einops tensorboard albumentations
   │   │   ├── masks
   │   │   │   ├── ***.png
   │   │   ├── highlighted_GT
-  │   │   │   ├── ***.pt
+  │   │   │   ├── ***.png
   ```
 
 ### 2. SUN-SEG Dataset
@@ -72,7 +72,7 @@ pip install pytorch-lightning==1.9.3 omegaconf einops tensorboard albumentations
   │   │   │   │   ├── ***.png
   │   │   ├── Highlighted_GT
   │   │   │   ├── case***
-  │   │   │   │   ├── ***.pt
+  │   │   │   │   ├── ***.png
   ```
 
 - For the **SUN-SEG** dataset, combine the **Unseen** test data from both the **Easy** and **Hard** cases into a new test set under `test_data_dir`.
