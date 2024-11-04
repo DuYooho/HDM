@@ -36,7 +36,7 @@ pip install pytorch-lightning==1.9.3 omegaconf einops tensorboard albumentations
   │   │   ├── masks
   │   │   │   ├── ***.png
   │   │   ├── highlighted_GT
-  │   │   │   ├── ***.pt
+  │   │   │   ├── ***.png
   │   ├── ${test_data_dir}
   │   │   ├── images
   │   │   │   ├── ***.png
@@ -62,7 +62,7 @@ pip install pytorch-lightning==1.9.3 omegaconf einops tensorboard albumentations
   │   │   │   │   ├── ***.png
   │   │   ├── Highlighted_GT
   │   │   │   ├── case***
-  │   │   │   │   ├── ***.pt
+  │   │   │   │   ├── ***.png
   │   ├── ${test_data_dir}
   │   │   ├── Frame
   │   │   │   ├── case***
