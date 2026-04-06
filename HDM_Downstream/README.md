@@ -4,7 +4,7 @@
 
 ### 1. 2D Dataset
 - Download the 2D dataset from [this repository](https://github.com/DengPingFan/PraNet).
-- Download the extracted features by HDM from [this link](https://cuhko365-my.sharepoint.com/:u:/g/personal/118010053_link_cuhk_edu_cn/EV2ilPTFJpNFnV4riXwD9swBiKpF7ig_m-h5n02L__LlHA?e=DPvtZW).
+- Download the extracted features by HDM from [this link](https://pan.baidu.com/s/145u8ffMMM_03lKfRgIB8KQ?pwd=347d).
 - Organize the dataset with the following structure:
 
   ```bash
@@ -27,7 +27,7 @@
 
 ### 2. SUN-SEG Dataset
 - Download the SUN-SEG dataset from [this repository](https://github.com/GewelsJI/VPS).
-- Download the extracted features by HDM from [this link](https://cuhko365-my.sharepoint.com/:u:/g/personal/118010053_link_cuhk_edu_cn/Ee2X8wZlHPxDhPkJ2bJdMF8Ba07Rx-BX0naZAwVc8Wqqsg?e=6y6MGy).
+- Download the extracted features by HDM from [this link](https://pan.baidu.com/s/14Dlr9zcwMEyernAASMW71Q?pwd=rs78).
 - Organize the dataset with the following structure:
 
   ```bash
@@ -94,16 +94,16 @@ We provide pre-trained models for both the **2D Dataset** and **SUN-SEG** datase
 
 | Methods          | Link                                                                                                                                             |                                      
 |------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| PraNet+Ours      | [Download](https://cuhko365-my.sharepoint.com/:u:/g/personal/118010053_link_cuhk_edu_cn/EQnz3XB0s1JFijYPRJa1sCgB35Ma7cm4lCot8nliJ28PGQ?e=mHDtDx) |s
-| FCBFormer+Ours   | [Download](https://cuhko365-my.sharepoint.com/:u:/g/personal/118010053_link_cuhk_edu_cn/EZ6YsvCgOrhNiwFHcG3_2oMBP-Ez3sOtVMUiBtfmpRkOJQ?e=WKzKXf) |
-| Polyp-PVT+Ours   | [Download](https://cuhko365-my.sharepoint.com/:u:/g/personal/118010053_link_cuhk_edu_cn/Ef8og3Fm0d5EkmBakiXQzYYBA54lyHodnbH3h3vypA_qxA?e=dBPpDS) |
+| PraNet+Ours      | [Download](https://pan.baidu.com/s/1-tVn2VKLzvmV96RQ0sJa-g?pwd=enr8) |
+| FCBFormer+Ours   | [Download](https://pan.baidu.com/s/1ASofKTqB2xOE0-fYA8_meQ?pwd=jyg9) |
+| Polyp-PVT+Ours   | [Download](https://pan.baidu.com/s/1JDUARwx7midG6sKA0BQsQg?pwd=6icx) |
 
 **(2) SUN-SEG Dataset Models**
 
 | Methods          | Link                                                                                                                                                  |                                      
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| FCBFormer+Ours   | [Download](https://cuhko365-my.sharepoint.com/:u:/g/personal/118010053_link_cuhk_edu_cn/EYS0S8slZ1xGhKOTyqxlojMBwk0y87DHHgYNvRZ0pMUd-Q?e=KpykhJ)      |
-| Polyp-PVT+Ours   | [Download](https://cuhko365-my.sharepoint.com/:u:/g/personal/118010053_link_cuhk_edu_cn/EampDpyWyzlHu3tyzw65-_oBZoS7lQpUM9p-esdbw97Iyg?e=2D73Zz)      |
+| FCBFormer+Ours   | [Download](https://pan.baidu.com/s/1Y3jLXyagzC1lGV6XWY6rrQ?pwd=qef5)      |
+| Polyp-PVT+Ours   | [Download](https://pan.baidu.com/s/1bjiYmEBRrDR4GunirsHUBQ?pwd=cssx)      |
 
 You can download the pre-trained weights or train the models yourself.
 

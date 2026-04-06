@@ -25,7 +25,7 @@ pip install pytorch-lightning==1.9.3 omegaconf einops tensorboard albumentations
 
 ### 1. 2D Dataset
 - Download the 2D dataset from [this repository](https://github.com/DengPingFan/PraNet).
-- Download highlighted images from [this link](https://cuhko365-my.sharepoint.com/:u:/g/personal/118010053_link_cuhk_edu_cn/EftDBY48KXJKsssNHz5EVCgBbOokKAJLsHpyZ1YZ7HW1BQ?e=WCVJ1F).
+- Download highlighted images from [this link](https://pan.baidu.com/s/1yGSmhdc08quiw29s5Vel7A?pwd=hag2).
 - Organize the dataset as follows:
 
   ```bash
@@ -48,7 +48,7 @@ pip install pytorch-lightning==1.9.3 omegaconf einops tensorboard albumentations
 
 ### 2. SUN-SEG Dataset
 - Download the dataset from [this repository](https://github.com/GewelsJI/VPS).
-- Download highlighted images from [this link](https://cuhko365-my.sharepoint.com/:u:/g/personal/118010053_link_cuhk_edu_cn/EWzJEwYhWCxGhu7gfHxEVsoBkphrX3kZV4X0PpupZENiAA?e=hGvh24).
+- Download highlighted images from [this link](https://pan.baidu.com/s/1iYKtaw86IGPhgaGTZC4OlA?pwd=u4g3).
 - Organize the dataset as follows:
 
   ```bash
@@ -85,8 +85,8 @@ Pre-trained HDM models are available for download:
 
 | Methods       | Download Link                                                                                                                                    |
 |---------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| HDM_2D_Polyp  | [Download](https://cuhko365-my.sharepoint.com/:u:/g/personal/118010053_link_cuhk_edu_cn/EdZGuf4t2k9OlOJF8kxaiIIBk7wS3jS5z_C_6ElimX9i7A?e=iU3WwI) |
-| HDM_SUN-SEG   | [Download](https://cuhko365-my.sharepoint.com/:u:/g/personal/118010053_link_cuhk_edu_cn/EbC9ybD42eRFug7zr1NJWroBhL_IanJVTK2KPXjZourqQw?e=6rXdk5) |
+| HDM_2D_Polyp  | [Download](https://pan.baidu.com/s/1ePsYcIhhANukxr82G7sO1Q?pwd=agav) |
+| HDM_SUN-SEG   | [Download](https://pan.baidu.com/s/1k-7vpbeP5bfIUi8lBQiE_w?pwd=2bca) |
 
 ### Running Inference
 
@@ -105,8 +105,8 @@ Extracted features are available for download:
 
 | Methods       | Download Link                                                                                                                                         |
 |---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| HDM_2D_Polyp  | [Download](https://cuhko365-my.sharepoint.com/:u:/g/personal/118010053_link_cuhk_edu_cn/EV2ilPTFJpNFnV4riXwD9swBiKpF7ig_m-h5n02L__LlHA?e=DPvtZW)      |
-| HDM_SUN-SEG   | [Download](https://cuhko365-my.sharepoint.com/:u:/g/personal/118010053_link_cuhk_edu_cn/Ee2X8wZlHPxDhPkJ2bJdMF8Ba07Rx-BX0naZAwVc8Wqqsg?e=6y6MGy)      |
+| HDM_2D_Polyp  | [Download](https://pan.baidu.com/s/145u8ffMMM_03lKfRgIB8KQ?pwd=347d)      |
+| HDM_SUN-SEG   | [Download](https://pan.baidu.com/s/14Dlr9zcwMEyernAASMW71Q?pwd=rs78)      |
 
 ## Training Your Own HDMs
 
